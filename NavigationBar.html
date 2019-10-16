@@ -29,6 +29,27 @@
       <a class="next" onclick="moveSlide(1)">&#10095;</a>
 
     </div>
+    
+    <h3>Contact us</h3>
+    
+    <div class="container">
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Brahim">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Kanouche">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="brahim@kanouche.ca">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Type your message here" style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    
   </body>
 
   <!-- Add some style to the page-->
@@ -102,6 +123,35 @@
     background-color: rgba(0,0,0,0.8);
   }
 
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+  input[type=submit] {
+  background-color: lightblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  input[type=submit]:hover {
+  background-color: blue;
+}
+
+  .container {
+  border-radius: 5px;
+  background-color: #E3F9F9;
+  padding: 20px;
+}
   </style>
 
   <script>

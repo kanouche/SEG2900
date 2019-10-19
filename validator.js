@@ -1,6 +1,3 @@
-var slideIndex = 1;
-showSlides(slideIndex);
-
 function moveSlide(n) {
   showSlides(slideIndex += n);
 }

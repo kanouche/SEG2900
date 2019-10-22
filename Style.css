@@ -106,6 +106,19 @@ input[type=submit]:hover {
   margin: 5px 2px;
 }
 
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+
 .fa:hover {
     opacity: 0.7;
 }

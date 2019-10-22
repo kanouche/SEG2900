@@ -3,6 +3,34 @@
   <head>
     <link rel="stylesheet" type="text/css" href="Style.css">
     <script src="validator.js"></script>
+    <style>
+      body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .bg {
+      height: 50%; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h1 {
+    font-family: "Raleway", sans-serif !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 120px !important;
+    }
+
+    p {
+    font-family: "Raleway", sans-serif !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 25px !important;
+    }
+
+  </style>
   </head>
 
   <body>
@@ -15,32 +43,11 @@
       <a href="home.html">Home</a>
     </div>
 
-    <!-- An example of how to create a slide show-->
-    <h3>SlideShow</h3>
+    <div class="bg"> <img src ="home.jpg" width=100%></div>
+    <h1>Sports Family</h1>
+    <p>Find Pationate Sports Fan to watch your favorite games with</p>
+
     
-    <div class="slideshow">
-
-      <div class="mySlides fade">
-        <img src="campus.jpg" style="width:100%">
-      </div>
-
-      <div class="mySlides fade">
-        <img src="cityOfOttawa.jpg" style="width:100%">
-      </div>
-
-      <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
-      <a class="next" onclick="moveSlide(1)">&#10095;</a>
-
-    </div>
-
-    <!-- Footer -->
-    <footer>
-    <h4>Follow Us</h4>
-    <a href="https://github.com/kanouche" title="Facebook"><i class="fa fa-facebook"></i></a>
-    <a href="https://Linkedin.com/kanouche" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-    <a href="https://github.com/kanouche" title="github"><i class="fa fa-github"></i></a>
-    <p>Powered by Brahim Kanouche</a></p>
-  </footer>
     <script>
       var slideIndex = 1;
       showSlides(slideIndex);

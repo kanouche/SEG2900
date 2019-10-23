@@ -3,6 +3,72 @@
   <head>
 	<link rel="stylesheet" type="text/css" href="Style.css">
     <script src="validator.js"></script>
+    <style>
+      h2 {
+      display: block;
+      font-size: 1.5em;
+      text-align: center;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      }
+
+      h3 {
+      display: block;
+      font-size: 1.17em;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      }
+
+      p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      }
+
+
+      #slogan {
+      display: block;
+      text-align: center;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      }
+
+      img {
+      vertical-align: middle;
+      border-style: none;
+      border-radius: 50%;
+      }
+
+      div.item {
+      vertical-align: top;
+      display: inline-block;
+      text-align: center;
+      width: 120px;
+      }
+
+      div.description {
+      margin-left: 100px;
+      margin right: 100px;
+      vertical-align: top;
+      display: inline-block;
+      width: 220px;
+      }
+      
+      .caption {
+          display: block;
+      }
+
+    </style>
   </head>
   <body>
   	<div class="topnav">
@@ -13,9 +79,34 @@
       <a href="products.html">Products</a>
       <a class="active" href="#home">Home</a>
     </div>
-  	<div>
-  	    <h2>Our Story</h2>
-	</div>
+  	
+    <div class="teamcontainer" id="team">
+    <h2>OUR TEAM</h2>
+    <p id="slogan">Meet the team - SEG superheros:</p>
+
+      <div class="profils"><br>
+
+        <div class="item">
+          <img src="photo.jpg" alt="Avatar" style="width:100%" >
+          <h3>Brahim Kanouche</h3>
+          <p>Web Designer</p>
+        </div>
+        <div class="description">
+          <p> Passionate developer working on the front end of SportsFamily. Making sure the users interacts easily with the website and making our feature as user friendly as possible. </p> 
+        </div>
+        <br/>
+        <br />
+        <div class="item">
+          <img src="photo.jpg" alt="Avatar" style="width:100%" >
+          <h3>Brahim Kanouche</h3>
+          <p>Support</p>
+        </div>
+        <div class="description">
+          <p> Our SportsFamily support lead who is dealing with any concerns, problems or request from our loyal customers. Always has an answer so don't hesitate to reach out to him. </p> 
+        </div>
+
+      </div>
+    </div>
   </body>
 
 </html>

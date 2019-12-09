@@ -47,7 +47,18 @@
     <div class="titles"><h1>Sports Family</h1>
     <p>Find Pationate Sports Fan to watch your favorite games with</p>
   </div>
+  
+  <div class="footer">
+    <p>Subscribe Form</p>
+    <input aria-label="Email Address" name="subscriberEmail" placeholder="Email Address" required="" size="1"> <br/>
+    <button class="button subscribe-button">
+      <span ng-if="!main.isInPopup()" class="ng-binding ng-scope">
+        Submit
+      </span>
+    </button><br/>
+    <span class="color_15">©2019 by Brahim Kanouche. All right reserved.</span>
 
+  </div>
     
     <script>
       var slideIndex = 1;

@@ -144,12 +144,11 @@ input[type=submit]:hover {
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 20;
-  width: 100%;
-  background-color: grey;
-  color: white;
+  top: 1205px;
+  position: relative;
   text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  z-index: 4;
+  color: #a8a8a8;
 }

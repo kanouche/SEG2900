@@ -4,6 +4,7 @@ body {
 }
 
 .topnav {
+    position: fixed;
     overflow: hidden;
     background-color: #333;
 }
